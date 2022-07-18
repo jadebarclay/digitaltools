@@ -20,9 +20,9 @@ The best way to keep your passwords *different and secure* is to use a password 
 
 Getting used to using a password manager is a great investment in your overall experience of using the Internet. Most password managers have browser plugins that can fill login forms automatically. 
 
- - **[LastPass](https://www.griffith.edu.au/passwords/lastpass)**: Griffith's supported password manager. It is available to all staff. 
+ - **[Bitwarden](www.bitwarden.com)**: free and open source, multiplatform, simple to use. Very modern and well-regarded. 
 
- - **[Bitwarden](www.bitwarden.com)**: free and open source, multiplatform, simple to use. Very modern and well-regarded.
+ - **[LastPass](https://www.lastpass.com)**: popular commercial password manager. It's been around along time and has a good reputation.
 
  - **[1Password](https://1password.com)**: high quality commercial (paid) option. It's been around along time and has a good reputation.
 
@@ -31,7 +31,7 @@ Getting used to using a password manager is a great investment in your overall e
 {% capture pwrecommended %}
 **Our recommendation: Bitwarden**
 
-Although LastPass is a partner of Griffith and is offered free to staff, the app is not as seamless as Bitwarden, and your license will not come with you if you leave Griffith. For that reason, we recommend going with Bitwarden. 
+Some universities offer LastPass free to staff, but the app is not as seamless as Bitwarden, and your license will not come with you if you leave the university. For that reason, we recommend going with Bitwarden. 
 {% endcapture %}
 {% include alert.html text=pwrecommended color="primary" %}
 
