@@ -13,6 +13,6 @@ This site is designed as a companion to [Jade Barclay's](https://jadebarclay.git
 
 {% include alert.html text=workshopinfo align="left" color="info" %}
 
-{% include toc.html %}
+<!-- {% include toc.html %} -->
 
 {% include template/credits.html %}
