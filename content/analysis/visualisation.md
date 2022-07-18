@@ -13,11 +13,11 @@ The Library has produced an [online introduction](https://sway.office.com/O9vEKm
 {% capture dataviz %}
 - [Data to Viz](https://www.data-to-viz.com/): Helps you to decide which type of graph is appropriate to your data. 
 
-- [Tableau](https://public.tableau.com): academics and students have access to the full desktop version (see the [Tableau Gallery](https://public.tableau.com/en-us/s/gallery) for some great inspiration)
+- [Tableau](https://public.tableau.com): academics and students have access to the full desktop version and entire [eLearning suite](https://www.tableau.com/academic/students) (see the [Tableau Gallery](https://public.tableau.com/en-us/s/gallery) for some great inspiration)
 
 - [RAWGraphs](https://app.rawgraphs.io): Free and open source, secure browser-based visualisation (you can also run it locally, i.e. outside of a browser). Intended to 'bridge gap between spreadsheet applications and graphics editors'. Version 2.0 beta is available.
 
-- [PowerBI](https://powerbi.microsoft.com): Connects well with other Microsoft data sources but costs money to use.
+- [PowerBI](https://powerbi.microsoft.com): PowerBI is now included with Microsoft365. Click the 9 dots in the top left of browser version of Outlook or Word, select "All Apps $\rightarrow$" and scroll to find PowerBI. Skills with Tableau and PowerBI are highly sought after in industry, as are R, SQL and Python (but Tableau and PowerBI don't have as steep a learning curve).
 
 - [Prism](https://www.graphpad.com/scientific-software/prism/)
 
