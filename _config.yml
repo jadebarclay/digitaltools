@@ -1,8 +1,9 @@
 #########
 #
-# workshop-template-b, evanwill
-# a Jekyll template for a simple workshop website
-# https://github.com/evanwill/workshop-template-b
+# Learn-Static Lesson Template
+# a Jekyll template for a simple lesson or workshop website
+# with a sidebar content nav layout
+# https://github.com/learn-static/lesson-template
 #
 #########
 
@@ -10,30 +11,47 @@
 # SITE SETTINGS
 #
 # title appears in the header
-title: Griffith Library Workshop
+title: Digital Tools for Research Life
 # title-icon appears in the header to give some pizazz (leave blank for none)
 # choose from Bootstrap Icons in _includes/bootstrap-icons
-# find names on https://icons.getbootstrap.com/
+# find names on https://icons.getbootstrap.com/ (or look in "_includes/bootstrap-icons")
 # some options: code-slash file-code gear tools lightblub book bookmark-star
 title-icon: tools
-# description, keywords, and image for meta tags
-# these do not visibility appear on the pages, but used for SEO
-description: "A workshop companion site presented by Griffith University Library"
-keywords: "workshops, Griffith, research, library"
-# featured-image is added to metadata tags for social media sharing
-# use a relative path to image in this repository or full URL
+# description appears in sidebar footer
+description: "Tools and techniques to make research life easier"
+# keywords for meta tags used by search engines
+keywords: "workshops, digital tools, digital health, research, academic, nmsk"
+# image for meta tags, will appear when sharing link on social media
 featured-image: "/images/university-drive.jpg"
-# add search box to footer? true/false
-search: true
 
-# author settings for cc-by, appears in the footer and credits
-author: Griffith University Library
-# your github username for link [optional]
-github_username: GriffithUniLibrary
-# year or date published
-pub_year: 2022
+# author name, displayed in credits
+author: Jade Barclay
+# year or date published, displayed in sidebar
+publication_year: 2022
 # location of code, the full url to your github repository
-source-code: https://github.com/GULibrarySandbox/library-template-2022
+source-code: https://github.com/jadebarclay/digitaltools
+# content license (typically "cc by-sa"), displayed in sidebar
+content_license: "CC BY-SA"
+# URL to the content license
+content_license_link: https://creativecommons.org/licenses/by-sa/4.0/
+
+##########
+# THEME CUSTOMIZATION [optional!]
+#
+# leave these commented out or blank for defaults.
+# these options tweak CSS, so should be valid CSS values.
+#
+# header-background: 
+# header-text-color: 
+breadcrumbs-background: "#3e3F41" 
+#75787b at 25% brightness
+# breadcrumbs-text-color: 
+# active-nav-color: "#E3CCCD" 
+#e30918 at 10% saturation
+# link-color:
+# next-button-color:
+# text-color: 
+# base-font-size:
 
 ##########
 # URL VARIABLES [optional!]
@@ -42,11 +60,12 @@ source-code: https://github.com/GULibrarySandbox/library-template-2022
 #
 # use url for the domain, e.g. https://evanwill.github.io
 # on gh-pages follow the pattern: https://username.github.io
-url:
+# url:
 # use baseurl to add subsection of the domain, e.g. /workshop-template-b
 # on gh-pages this is a / followed by the name of the repository
 # baseurl is your github repository's name prefixed with a /
-baseurl:
+# baseurl:
+
 
 
 ##########
@@ -54,7 +73,8 @@ baseurl:
 #
 # leave this blank or comment out to NOT include google code
 # Add your google-analytics-id to automatically add the embed code, e.g. "UA-76328753-1"
-google-analytics-id: UA-139142134-4
+# google-analytics-id: 
+
 
 ##########
 # ROBOTS EXCLUDE [optional!]
@@ -71,8 +91,8 @@ defaults:
   - scope:
       path: "content"
     values:
-      layout: "section"
+      layout: "lesson-content"
 # ignore stuff
-exclude: [README.md, LICENSE, assets/lib/README.md]
+exclude: [README.md, CONTRIBUTING.md, LICENSE, assets/lib/README.md]
 # Build settings
 markdown: kramdown

@@ -2,17 +2,18 @@
 
 ## Topic and aims
 
-Place the topic of your workshop here, for example: LimeSurvey, Digital Dexterity, Copyright for researchers, etc.
+Digital tools for research life
 
 Once you have completed this workshop you should be able to:
 
-- Explain the difference between copyright and academic integrity
-- Identify the most common sources of GLAM archival text
-- Verb a noun with the following limiting words
+- Use built-in accessibility, research, and qualtiy-of-life tools
+- Access open source, free, university provided and paid tools
+- Improve efficiency with literature, data, writing, outreach, and collaboration
+- Identify stuck spots and blind spots to tune up your workflows
 
 ## Audience
 
-This workshop is aimed at researchers and academics in the field of biostatistics.
+This workshop is aimed at researchers and grad students in medicine and health.
 
 ## Prerequisites
 
@@ -25,7 +26,7 @@ To successfully coplete this workshop you will need:
 
 It is assumed that you have the following level of understanding:
 
-- Ability to install software on your own device
+- Ability to install software on your own device (but we can work around that)
 - Foundational data terminology such as tabular data, binary data, csv, tables, fields etc.
 
 {% endcapture %}

@@ -1,22 +1,17 @@
 <!DOCTYPE html>
-<html lang="en" class="h-100">
+<html lang="en" >
   <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
   {% include template/head.html %}
   </head>
 
-  <body class="d-flex flex-column h-100">
+  <body>
+
     <div id="skip-to-content"><a href="#maincontent">Skip to main content</a></div>
-    <header>
-    {% include template/top-nav.html %}
-    </header>
 
-    <main id="maincontent" role="main" aria-label="Content" class="flex-shrink-0">
-      <div class="container my-4">
-      {{ content }}
-      </div>
-    </main>
+    {% include template/banner.html %}
 
-    {% include template/footer.html %}
+    {{ content }}
+
     {% include template/foot.html %}
 
   </body>
