@@ -1,8 +1,9 @@
 {% capture aboutworkshop %}
 
-## Topic and aims
+## Digital tools for research life
 
-Digital tools for research life
+This is the tutorial template for the workshop.
+The workshop site is here: https://jadebarclay.github.io/digitaltools/
 
 Once you have completed this workshop you should be able to:
 
@@ -33,7 +34,7 @@ It is assumed that you have the following level of understanding:
 
 {% include card.html header="About this workshop" text=aboutworkshop %}
 
-# About the Griffith Library Workshop Template
+# About the Bootstrap Workshop Template
 
 This template is derived from `workshop-template-b` by Evan Williamson. It is a Jekyll template for a simple workshop website, with a [Bootstrap](https://getbootstrap.com/)-based theme, designed for hosting on [GitHub Pages](https://pages.github.com/).
 

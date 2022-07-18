@@ -1,5 +1,5 @@
 ---
-title: Digital Tools for Research
+title: Digital Tools for Research Life
 layout: lesson-content
 ---
 
@@ -7,7 +7,7 @@ layout: lesson-content
 
 {% capture workshopinfo %}
 
-This site is designed as a companion to [Griffith Library's](https://www.griffith.edu.au/library) Digital Tools for Research workshop, presented in collaboration with Griffith [RED](https://www.griffith.edu.au/research/research-services/researcher-education-development). It can also be treated as a standalone, self-paced tutorial.
+This site is designed as a companion to [Jade Barclay's](https://jadebarclay.github.io) Digital Tools for Research Life workshop, presented in collaboration with [PhD Cafe](mailto:jade.barclay@sydney.edu.au?subject=PhDCafe). The recommended apps, tools and techniques are updated after each live workshop. It can also be treated as a standalone, self-paced tutorial.
 
 {% endcapture %}
 
