@@ -19,7 +19,19 @@ This site is written in Markdown.
 
 {% capture markdowntools %}
 
-All of the programming text editors above support Markdown. Below are some dedicated Markdown editors. 
+All of the programming text editors above support Markdown. 
+
+- **[Quarto](https://quarto.org)**Recommended: Write Markdown documents then export via LaTeX templates with [Quarto](https://quarto.org) in VSCode or RStudio.
+  Writing is quicker in markdown, and LaTeX is prettier. Learn just enough $LaTeX$ to work with templates.
+  
+- Link your Zotero/Endnote account directly to your documents in Quarto, RStudio, Obsidian, Google Docs, Word. And learn keyboard shortcuts 
+- Option to edit in online IDEs such as github.dev, vscode.dev, rstudio.cloud
+
+Below are some dedicated Markdown editors. 
+
+- **[Typora](https://typora.io)**:  popular minimalist desktop Markdown editor.
+
+- **[HackMD.io](https://HackMD.io)**: popular and free online Markdown editor with collaboration and slides.
 
 - **[Dillinger](https://dillinger.io)**:  popular and free online Markdown editor.
 
